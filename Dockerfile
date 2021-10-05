@@ -8,4 +8,5 @@ ENV BODY="please use TITLE/COLOR/BODY env vars to customize this page"
 
 COPY start.sh /
 RUN chmod +x start.sh
+EXPOSE 80
 CMD [ "/start.sh" ]
