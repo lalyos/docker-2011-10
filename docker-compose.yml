@@ -5,6 +5,6 @@ services:
         ports:
             - '8080:80'
         environment:
-            - TITLE=Csutortok v3
-            - COLOR=lightgreen
+            - TITLE=${TITLE:-Backend}
+            - COLOR=${COLOR:-lightgreen}
         image: 'lunch:v6'
