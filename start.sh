@@ -7,6 +7,8 @@ cat > /var/www/html/index.html <<EOF
 
 $BODY
 
+<hr/>
+Host: ${HOSTNAME}
 </body>
 </html>
 EOF
