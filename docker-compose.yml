@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+    lunch:
+        init: true
+        ports:
+            - '8080:80'
+        environment:
+            - TITLE=Csutortok v3
+            - COLOR=lightgreen
+        image: 'lunch:v6'
