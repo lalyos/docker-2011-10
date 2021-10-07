@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+    lunch:
+        environment:
+            - TITLE=Backend-PROD
+            - COLOR=red
+    proxy:
+        image: nginx:alpine
+        ports:
+        - 80
